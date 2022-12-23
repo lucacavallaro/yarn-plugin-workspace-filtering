@@ -14,11 +14,18 @@
   "author": "Luca Cavallaro <luca.cavallaro@posteo.net>",
   "scripts": {
     "format": "sort-package-json && prettier --write .",
+    "lint": "eslint \"./src/**/*.ts\"",
+    "lint:fix": "eslint --fix \"./src/**/*.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "^8.30.0",
+    "eslint-plugin-sonarjs": "^0.17.0",
     "prettier": "2.8.1",
-    "sort-package-json": "^2.1.0"
+    "sort-package-json": "^2.1.0",
+    "typescript": "^4.9.4"
   },
   "packageManager": "yarn@3.3.1"
 }
