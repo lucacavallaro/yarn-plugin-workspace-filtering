@@ -1,0 +1,35 @@
+name: "Code Review"
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - src/**
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - src/**
+  workflow_dispatch: {}
+
+jobs:
+  code_review:
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run linter
+        run: yarn lint
