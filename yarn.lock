@@ -1274,7 +1274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clipanion@npm:^3.2.0-rc.10":
+"clipanion@npm:^3.2.0-rc.10, clipanion@npm:^3.2.0-rc.14":
   version: 3.2.0-rc.14
   resolution: "clipanion@npm:3.2.0-rc.14"
   dependencies:
@@ -3149,6 +3149,9 @@ __metadata:
     "@typescript-eslint/eslint-plugin": latest
     "@typescript-eslint/parser": latest
     "@yarnpkg/builder": ^4.0.0-rc.34
+    "@yarnpkg/cli": ^4.0.0-rc.34
+    "@yarnpkg/core": ^4.0.0-rc.34
+    clipanion: ^3.2.0-rc.14
     eslint: ^8.30.0
     eslint-plugin-sonarjs: ^0.17.0
     prettier: 2.8.1

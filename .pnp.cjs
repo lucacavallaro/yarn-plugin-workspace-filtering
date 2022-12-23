@@ -31,6 +31,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:91f20041a06ad8ae538121cb6f70b4c5d5c89a6551725635bb6c6e4c2a95023633bfa6147dbda0d3c640f7e3b8c10c14d3ecca74d38835a27a8b106ede72d99f#npm:5.47.0"],\
             ["@typescript-eslint/parser", "virtual:91f20041a06ad8ae538121cb6f70b4c5d5c89a6551725635bb6c6e4c2a95023633bfa6147dbda0d3c640f7e3b8c10c14d3ecca74d38835a27a8b106ede72d99f#npm:5.47.0"],\
             ["@yarnpkg/builder", "npm:4.0.0-rc.34"],\
+            ["@yarnpkg/cli", "virtual:ddc705b3dfbfab55079902d92bd0b526abb1c2fa4398180adafad8ee21058a81739dc33f0cef89b38aa8003addb9ffcf55c5ab674004dac490753e8b73be5f16#npm:4.0.0-rc.34"],\
+            ["@yarnpkg/core", "npm:4.0.0-rc.34"],\
+            ["clipanion", "virtual:cbf7078e467aba4e1a4a937a491e412822878bc7fb4fdd75be20353757a3d85d38b6f20fdb156220a9dbc5773d3d9127f443414b12aa687236579fca2d96eabb#npm:3.2.0-rc.14"],\
             ["eslint", "npm:8.30.0"],\
             ["eslint-plugin-sonarjs", "virtual:91f20041a06ad8ae538121cb6f70b4c5d5c89a6551725635bb6c6e4c2a95023633bfa6147dbda0d3c640f7e3b8c10c14d3ecca74d38835a27a8b106ede72d99f#npm:0.17.0"],\
             ["prettier", "npm:2.8.1"],\
@@ -4135,6 +4138,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:91f20041a06ad8ae538121cb6f70b4c5d5c89a6551725635bb6c6e4c2a95023633bfa6147dbda0d3c640f7e3b8c10c14d3ecca74d38835a27a8b106ede72d99f#npm:5.47.0"],\
             ["@typescript-eslint/parser", "virtual:91f20041a06ad8ae538121cb6f70b4c5d5c89a6551725635bb6c6e4c2a95023633bfa6147dbda0d3c640f7e3b8c10c14d3ecca74d38835a27a8b106ede72d99f#npm:5.47.0"],\
             ["@yarnpkg/builder", "npm:4.0.0-rc.34"],\
+            ["@yarnpkg/cli", "virtual:ddc705b3dfbfab55079902d92bd0b526abb1c2fa4398180adafad8ee21058a81739dc33f0cef89b38aa8003addb9ffcf55c5ab674004dac490753e8b73be5f16#npm:4.0.0-rc.34"],\
+            ["@yarnpkg/core", "npm:4.0.0-rc.34"],\
+            ["clipanion", "virtual:cbf7078e467aba4e1a4a937a491e412822878bc7fb4fdd75be20353757a3d85d38b6f20fdb156220a9dbc5773d3d9127f443414b12aa687236579fca2d96eabb#npm:3.2.0-rc.14"],\
             ["eslint", "npm:8.30.0"],\
             ["eslint-plugin-sonarjs", "virtual:91f20041a06ad8ae538121cb6f70b4c5d5c89a6551725635bb6c6e4c2a95023633bfa6147dbda0d3c640f7e3b8c10c14d3ecca74d38835a27a8b106ede72d99f#npm:0.17.0"],\
             ["prettier", "npm:2.8.1"],\
