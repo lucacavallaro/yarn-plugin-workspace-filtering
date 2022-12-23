@@ -33,3 +33,6 @@ jobs:
 
       - name: Run linter
         run: yarn lint
+
+      - name: Run type checker
+        run: yarn typecheck
