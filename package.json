@@ -13,15 +13,17 @@
   "license": "BSD-2-Clause",
   "author": "Luca Cavallaro <luca.cavallaro@posteo.net>",
   "scripts": {
+    "build": "builder build plugin",
     "format": "sort-package-json && prettier --write .",
-    "lint": "eslint \"./src/**/*.ts\"",
-    "lint:fix": "eslint --fix \"./src/**/*.ts\"",
+    "lint": "eslint \"./sources/**/*.ts\"",
+    "lint:fix": "eslint --fix \"./sources/**/*.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "typecheck": "tsc"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
+    "@yarnpkg/builder": "^4.0.0-rc.34",
     "eslint": "^8.30.0",
     "eslint-plugin-sonarjs": "^0.17.0",
     "prettier": "2.8.1",

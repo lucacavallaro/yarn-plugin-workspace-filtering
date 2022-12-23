@@ -4,11 +4,11 @@ on:
   push:
     branches: ["main"]
     paths:
-      - src/**
+      - sources/**
   pull_request:
     types: [opened, synchronize]
     paths:
-      - src/**
+      - sources/**
   workflow_dispatch: {}
 
 jobs:
