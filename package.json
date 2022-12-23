@@ -2,7 +2,8 @@
   "name": "yarn-plugin-workspace-filtering",
   "version": "0.1.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
     "url": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering/issues"
   },
   "homepage": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering#readme",
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "devDependencies": {
+    "prettier": "2.8.1"
+  }
 }

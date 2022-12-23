@@ -28,15 +28,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["prettier", "npm:2.8.1"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["prettier", [\
+        ["npm:2.8.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.1-be60b51821-4f21a0f126.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["yarn-plugin-workspace-filtering", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["yarn-plugin-workspace-filtering", "workspace:."]\
+            ["yarn-plugin-workspace-filtering", "workspace:."],\
+            ["prettier", "npm:2.8.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
