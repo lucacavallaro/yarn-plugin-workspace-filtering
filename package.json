@@ -1,0 +1,19 @@
+{
+  "name": "yarn-plugin-workspace-filtering",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucacavallaro/yarn-plugin-workspace-filtering.git"
+  },
+  "keywords": [],
+  "author": "Luca Cavallaro <luca.cavallaro@posteo.net>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering/issues"
+  },
+  "homepage": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering#readme",
+  "packageManager": "yarn@3.3.1"
+}
