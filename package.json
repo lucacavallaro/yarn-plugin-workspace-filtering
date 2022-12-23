@@ -1,23 +1,24 @@
 {
   "name": "yarn-plugin-workspace-filtering",
   "version": "0.1.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write ."
+  "keywords": [],
+  "homepage": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering#readme",
+  "bugs": {
+    "url": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucacavallaro/yarn-plugin-workspace-filtering.git"
   },
-  "keywords": [],
-  "author": "Luca Cavallaro <luca.cavallaro@posteo.net>",
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering/issues"
+  "author": "Luca Cavallaro <luca.cavallaro@posteo.net>",
+  "scripts": {
+    "format": "sort-package-json && prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/lucacavallaro/yarn-plugin-workspace-filtering#readme",
-  "packageManager": "yarn@3.3.1",
   "devDependencies": {
-    "prettier": "2.8.1"
-  }
+    "prettier": "2.8.1",
+    "sort-package-json": "^2.1.0"
+  },
+  "packageManager": "yarn@3.3.1"
 }
